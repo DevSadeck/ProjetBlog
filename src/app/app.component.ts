@@ -6,5 +6,27 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+
+
+  posts = [
+    {
+      title: 'Mon premier post',
+      content: ' ceci est le contenu du premier post ceci est le contenu du premier post ceci est le contenu du premier post ceci est le contenu du premier post ceci est le contenu du premier post ceci est le contenu du premier post',
+      loveIts: 0,
+      created_at :new Date()
+    },
+    {
+      title: 'Mon dexième post',
+      content: ' ceci est le contenu du deuxieme post ceci est le contenu du deuxieme post ceci est le contenu du deuxieme post ceci est le contenu du deuxieme post ceci est le contenu du deuxieme post ceci est le contenu du deuxieme post',
+      loveIts: 0,
+      created_at:new Date()
+    },
+    {
+      title: 'Mon troisième post',
+      content: ' ceci est le contenu du troisieme post ceci est le contenu du troisieme post ceci est le contenu du troisieme post ceci est le contenu du troisieme post ceci est le contenu du troisieme post ceci est le contenu du troisieme post',
+      loveIts: 0,
+      created_at: new Date()
+    }
+  ];
+
 }
